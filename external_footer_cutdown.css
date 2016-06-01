@@ -1,0 +1,20 @@
+@charset "utf-8";
+#footerMainNoPatch a:hover, .footerLinkBorder, #footerLeft a, #footerLeft a:hover{background-repeat: no-repeat;} 
+#footerLeft a, #footerLeft a:hover {background-image: url("homepage_images/w_logo_white_ftr.gif");}
+#footerMainNoPatch li {font-size: 9px; font-weight: bold; background-color:transparent; display: inline;}
+#footerMainNoPatch a, #footerLeft, .footerLinkBorder{float: left;}
+#footerMainNoPatch a{padding: 8px 6px 7px 0; text-decoration: none; text-transform: uppercase;}
+#footerMainNoPatch li{white-space: nowrap;}
+#footerMainNoPatch a:active {color: #FFFFCC;}
+#footerMainNoPatch a:hover, #footerLeft a:hover {color: #CCC;}
+#footerMainNoPatch a:hover {background-image: url("homepage_images/notch_ftr.gif"); background-position: center bottom;}
+{color: #d7a900;}
+#footerMainNoPatch a  {color: #FFF;}
+#footerMainNoPatch ul{margin: 0; padding: 0; display: block;}
+#footerMainNoPatch{background-repeat: repeat-x; clear: both; background-image: url("homepage_images/bg_ftr.gif"); background-position: 0px 0px; overflow: hidden; height: 25px;}
+#footerCenter{margin: 0 auto; width: 285px;}
+#footerLeft {padding-left: 40px;}
+#footerRight{float: right;}
+#footerLeft a{background-position: left center; text-indent: -9999px; width: 237px;}
+.rightText, .footerLinkBorder{padding-left: 10px; background-image: url("homepage_images/leftbar_ftr.png"); background-position: 0px 6px;} 
+.centerText {padding-left: 30px;}

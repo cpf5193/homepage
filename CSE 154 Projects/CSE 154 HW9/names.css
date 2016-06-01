@@ -1,0 +1,21 @@
+/*
+Christon Fukuhara
+CSE 154 BF/BU
+December 6, 2012
+HW9 Baby Names names.css
+
+Baby Names gives statistics and information about names for children born 
+in the US
+
+names.css provides the stylistic features of the page
+
+Extra Feature 1 Implemented
+*/
+body{font-family: "Georgia", serif; font-size: 12pt;}
+q{font-style: italic;}
+#errors p{color: red; border: black 10px solid; background-color: yellow; font-weight: bold;}
+#graph td, #graph th{width: 50px;}
+#graph td{vertical-align: bottom; height: 250px;}
+#graph{text-align: center;}
+#graph div{background-color: #FFBBBB;}
+.popular{color: red;}

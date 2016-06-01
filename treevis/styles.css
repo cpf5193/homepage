@@ -1,0 +1,72 @@
+.tooltip .tooltip-inner {
+   max-width: 550px;
+}
+.tooltip.top {
+  margin-top: -4px;
+}
+.tooltip span.name {
+  display: block;
+  margin-bottom: 5px;
+}
+.tooltip span.metric {
+  margin-right: 5px;
+}
+.hidevis {
+  display: block;
+}
+.link {
+  stroke: #4C93D3;
+}
+.link.active {
+  stroke: #8F00FF;
+}
+.node {
+  text-align: left;
+}
+.node .borderRect {
+  fill: none;
+  pointer-events: all;
+  stroke: #DDDDDD;
+  stroke-width: 1px;
+}
+.node .borderRect.active, .node .borderRect.lastChild:hover {
+  stroke: #8F00FF;
+  stroke-width: 3px;
+}
+.node .borderRect.lastChild:hover {
+  cursor: pointer;
+}
+.node text {
+  text-anchor: left;
+}
+.node text.infoText, .node text.moreBtn {
+  pointer-events: none;
+}
+.node text tspan {
+  font-size: 16px;
+  text-overflow: ellipsis;
+  text-align: left;  
+}
+.node text tspan.name {
+  font-weight: bold;
+  font-size: 10px;
+}
+.node .plus-btn, .node .remove-btn {
+  fill: #DDDDDD;
+  font-family: "FontAwesome";
+  font-size: 20px;
+}
+.fa-minus-circle:before {
+  content: "\uf056";
+}
+.fa-plus-circle:before {
+  content: "\uf055";
+}
+.node .plus-btn:hover, .node .remove-btn:hover {
+  fill: #8F00FF;
+  font-family: "FontAwesome";
+  cursor: pointer;  
+}
+.hidden {
+  display: none;
+}

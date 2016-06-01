@@ -1,0 +1,41 @@
+<h1>
+  Hello fellow group members!
+</h1>
+
+<p>
+  Some basics of rails, although I should teach everyone the basics soon:
+</p>
+
+<ul>
+  <li>
+    Gems are included libraries. There are tons on
+    <a href="http://rubygems.org">
+      rubygems.
+    </a>
+    for us to use. They are specified in the Gemfile in the app root, along with version constraints. As an example of what is possible with gems, you could look up devise on rubygems.
+  </li>
+  <li>
+    Rails is an MVC based server. Models live in app/models, views are in app/views, controllers in - you guessed it - app/controllers. Additionally, you can add stylesheets, javascript, and images to app/assets/(stylesheets|javascripts|images), and those will become available by default at the app root (rails asset pipeline for more info).
+  </li>
+  <li>
+    Rails uses 'routes' to handle requests. These are specified in config/routes.rb, and - at their most basic - map urls to controllers, and actions in controllers.
+  </li>
+  <li>
+    Models handle the data, in particular connecting to the database. Usually you want a fat model, and a thin controller.
+  </li>
+  <li>
+    Controllers handle requests, get info from the models, and then pass it along to the view. Methods in the controller are called actions, typically, and map to a single user action (editing, rating, etc.). By default, after an action completes, it goes to the view in app/views/controller_name/action_name.html.erb. Different formats (json, if we use it for ajax stuff) will have names like action_name.json.erb, which we can then have rendered in certain cases.
+  </li>
+  <li>
+    Views have all the html display code. They're placed into a layout (look in app/views/layouts). All css/javascript are generally put together in a single application.css and application.js, for speed/efficiency, included in the layout.
+  </li>
+  <li>
+    Testing is super easy and helpful to do in rspec. Files will live in spec/(controllers|models|views)
+  </li>
+  <li>
+    Config lives in the config folder at the root. Rails by default can run in three different environments, development, test, and production. Development is used when you start the app by default, and reloads most code as you edit it, between requests. Production does not reload, and optimizes a few things for speed. Test is used for running the rspec suite of tests.
+  </li>
+  <li>
+    When you pull in the latest code, you should run 'bundle install' or 'bundle update'
+  </li>
+</ul>

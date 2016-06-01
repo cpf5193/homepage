@@ -1,0 +1,87 @@
+/*
+Christon Fukuhara
+CSE 154 B
+HW1 index.css
+*/
+body{
+	background-color: black;
+	color: white;
+}
+h1{
+	font-size: 32pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 5px;
+}
+.textLink{color: yellow;}
+#title{
+	background-color: rgb(49,35, 197);
+	border-color: black;
+	border: 2px solid;
+	border-radius: 15px;
+	padding-right: 100pt;
+	padding-left: 100pt;
+}
+body > h2{
+	font-family: "Monotype Corsiva", "Vivaldi", "Vladimir Script", serif;
+	text-align: center;
+	margin: 0;
+}
+#top{
+	text-align: center;
+	background-color: rgb(240, 34, 47);
+	font-family: "Monotype Corsiva", "Vivaldi", "Vladimir Script", serif;
+	border-radius: 15px;
+}
+#top, #leftCol, #rightCol, #link{
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+#link, body{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#link, #leftCol{
+	float: left;
+}
+#leftCol{
+	position: absolute;
+	font-family: sans;
+}
+#leftCol em{
+	font-size: 20pt;
+	text-decoration: underline;
+}
+#leftCol, #rightCol{
+	text-align: center;
+	margin-top: -48px;
+	height: 683px;
+	overflow: auto;
+	width: 20%;
+	color: black;
+	border-radius: 15px;
+	padding: 5px;
+	background-color: gray;
+	font-size: 12pt;
+}
+#middle{
+	width: 60%;
+	left: 20%;
+}
+#middle, #rightCol{position: relative;}
+#rightCol{
+	float: right;
+}
+.centerMain, #guarantee, #link{text-align: center;}
+#copyright{
+	font-size: 8pt;
+	text-align: right;
+}
+#mainContent{width: 100%;}
+ul li{
+	text-align: left;
+}
+#rightCol h2, #rightCol h3, #leftCol h2, #leftCol h3, #rightCol ul, #leftCol ul{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}

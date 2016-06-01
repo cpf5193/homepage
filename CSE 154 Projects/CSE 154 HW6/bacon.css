@@ -1,0 +1,30 @@
+/*
+Christon Fukuhara
+CSE 154 BF/BU 
+November 7, 2012
+HW 6 bacon.css
+	  
+My Movie Database is a simulation of the game "The Six Degrees of Kevin Bacon",
+contingent on the theory that any actor in the imdb database can be connected 
+to a common movie with Kevin Bacon through six linked actors. My Movie Database
+provides the user the ability to search for common movie appearances with Kevin 
+Bacon for a given actor name, or the movies that a given actor has appeared in. 
+
+bacon.css provides the styling and format for common.php, index.php, search-kevin.php
+, and search-all.php
+*/
+body{font-family: "Times New Roman", "Verdana", sans-serif; font-size: 14pt;}
+table { border-collapse: collapse; }
+tr:nth-child(even), body{ background-color: gray; }
+h1, #frame, table{ margin-left: auto; margin-right: auto;}
+#frame, h1, table, #title{ width: 80%; }
+.year, .num{ width: 10%;}
+.year, .name{ border-left: none; }
+.num, .name{ border-right: none; }
+#frame{background-color: white; border: 3px solid white; border-radius: 5px; text-align: center;}
+#banner span{vertical-align: middle;}
+#banner img{float: left; position: absolute; left: 11%;}
+#banner, #banner img{ margin: 5pt; }
+p{ margin: 15pt; }
+h1{ background-color: #E8E8E8; }
+#w3c, #banner{background-image: url("hw6_images/banner-background.png"); color: white; border-radius: 5px; padding: 5pt; font-size: 32pt;}

@@ -1,0 +1,109 @@
+/*
+Christon Fukuhara
+CSE 154 BF/BU
+Homework Assignment 2
+October 10, 2012
+*/
+body{
+	background-image: url("hw2_images/moviebg.png");
+	font-family: "Verdana", "Tahoma", sans-serif;
+}
+body, #critics p:nth-child(odd), #rightMidCol, #outOf{font-size: 8pt;}
+body, #middleBox, #botMidCol{margin-bottom: 0px;}
+#banner{
+	background-image: url("hw2_images/rancidbannerbg.png");
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+#banner, h1, #botMidCol{text-align: center;}
+#banner, #validators{position: fixed;}
+#banner, #bannerimg{height: 50px;}
+#bannerimg, #middleBox{margin-left: auto; margin-right: auto;}
+h1{
+	font-size: 24pt;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+	margin-top: 72px;
+}
+#middleBox{
+	border-radius: 20px;
+	width: 800px;
+	border: 4px solid gray;
+}
+#critics{width: 550px;}
+#critics, #critics img, #leftMidCol{float: left;}
+#middleBox, #critics, #critics p, #critics p:nth-child(odd){overflow: hidden;}
+h1, dt, #leftMidColHead, #critics p:nth-child(odd){font-weight: bold;}
+#leftMidColHead{
+	background-image: url("hw2_images/rottenlargebg.png");
+	font-size: 48pt;
+	color: red;
+}
+#rottonimg{vertical-align: bottom;}
+#rottonimg, #critics img{margin-right: 5px;}
+#leftMidColHead, #rottonimg{height: 83px;}
+#leftMidCol, #midMidCol{
+	width: 47%;
+	margin-left: 2%;
+}
+#critics p:nth-child(odd){
+	padding: 8px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	background-color: #E8DC9B;
+}
+#critics p:nth-child(even){margin-bottom: 20pt;}
+#leftMidCol span, #midMidCol span{font-style: italic;}
+#midMidCol{margin-right: 2%;}
+#midMidCol, #rightMidCol{float: right;}
+#rightMidCol{
+	width: 250px;
+	font-family: "Arial", sans-serif;
+}
+#validators{
+	width: 88px;
+	bottom: 0px;
+	right: 0px;
+}
+#validators a{opacity: 0.5;}
+#validators a:hover{opacity: 1.0;}
+dt{margin-top: 10pt;}
+dl{padding-left: 10pt; padding-right: 10pt;}
+#botMidCol{clear: both; padding: 5px;}
+#botMidCol, #rightMidCol{background-color: #A2B964;}
+#links{list-style-type: none; padding-left: 0px;}
+#outOf{
+	color: white;
+	font-style: normal;
+	font-weight: normal;
+}
+.w3c_css, .w3c_html, .critic, .fresh_thumb, .overview, .rotten, .rotten_thumb{background: url(hw2_images/sprite.png) no-repeat;}
+.w3c_css, .w3c_html{
+	width: 88px;
+	height: 31px;
+}
+.fresh_thumb, .rotten_thumb{
+	width: 25px;
+	height: 25px;
+}
+.w3c_css{background-position: -251px -116px ;}
+.w3c_html{background-position: -250px -84px ;}
+.critic{
+	background-position: -251px -148px ;
+	width: 35px;
+	height: 33px;
+}
+.fresh_thumb{background-position: -251px -209px ;}
+.overview{
+	background-position: 0 0;
+	width: 250px;
+	height: 412px;
+}
+.rotten{
+	background-position: -251px 0;
+	width: 98px;
+	height: 83px;
+}
+.rotten_thumb{background-position: -251px -182px ;}
+

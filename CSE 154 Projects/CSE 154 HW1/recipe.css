@@ -1,0 +1,56 @@
+/*
+Christon Fukuhara
+CSE 154 B
+HW1 recipe.css
+*/
+body{
+    background-image: url("silverware.jpg");
+	background-color: white;
+    color: rgb(64,64,64);
+    font-size: 11pt;
+    font-family: "Georgia", "Garamond", serif;
+}
+h1, h2, a{color: rgb(164, 164, 0);}
+h1, h2{
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.25em;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    font-size: 22pt;
+	font-weight: bold;
+	margin-left: 0px;
+}
+h2{
+    font-size: 18pt;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: left;
+}
+span{background-color: rgb(240,240,240);}
+/*takes care of extra spacing by the browser*/
+.deleteLine p, .deleteLine{
+    margin: 0px;
+}
+a, #deleteBottomMargin{margin-bottom: 0px;}
+.bullet li{
+    margin-left:-22px;
+    text-indent: 22px;
+    list-style-type: none;
+    background-image: url("pie_icon.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+blockquote{
+    background-color: rgb(255,255,168);
+    font-style: italic;
+}
+del{text-decoration: line-through;}
+abbr{text-decoration: underline;}
+#needsMargin{margin-top: 14px;}
+#copyright{
+	text-align: center;
+	margin-bottom: 1em;
+}

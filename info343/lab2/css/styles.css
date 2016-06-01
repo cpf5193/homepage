@@ -1,0 +1,155 @@
+/* Google web fonts 'Open Sans' (italic and normal) and 'Boogaloo' */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Boogaloo);
+
+/* reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+body {
+    background-image: url(../img/texture-light.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#content{
+	width: 80%;
+	background-color: #FFF;
+	margin: 10px auto;
+	padding: 25px 10px;
+	box-shadow: 2px 2px 6px #888;
+	overflow: hidden;
+}
+
+#logo-img{
+	float: left;
+	margin-right: 10px;
+}
+
+#fact-img{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+h1{
+	font-family: "Boogaloo", sans-serif;
+	font-size: 36px;
+	color: #116189;
+}
+
+.subhead{
+	font-style: italic;
+	margin: 10px 0;
+	font-size: 120%;
+}
+
+nav ul{
+	background-color: #D74710;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+nav a{
+	color: #FFF;
+	padding: 10px;
+	font-weight: bold;
+}
+
+nav li, nav a{
+	display: inline-block;
+}
+
+nav a:link, nav a:visited{
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
+
+nav{
+	margin-top:	25px;
+}
+
+.lorem{
+	margin-bottom: 20px;
+}
+
+#main-top{
+	padding-top: 15px;
+}
+
+#ship-img{
+	float: right;
+}
+
+#footer{
+	border-top: 1px solid gray;
+	font-style: italic;
+	font-size: 80%;
+	clear: both;
+}
+
+#footer p{
+	margin-bottom: 1em;
+}
+
+.hyperlink{
+	text-decoration: none;
+}
+
+.hyperlink:hover{
+	text-decoration: underline;
+}
+
+.person > img{
+	float: left;
+}
+
+.about-sect{
+	font-size: 24px;
+	font-weight: bold;
+	color: #116189;
+	margin: 10px 0;
+}
+
+.nametitle{
+	color: #116189;
+	font-weight: bold;
+}
+
+.person{
+	overflow: hidden;
+}
+
+#contact-banner{
+	width: 75%;
+	margin: 20px auto;
+	background-color: #FBEAE3;
+	border-radius: 5px;
+	padding: 7px;
+    text-align: center;
+}
+
+.product-sect{
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+.product-sect img{
+	float: left;
+}
+
+.product-sect h2{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.price{
+	font-style: italic;
+}

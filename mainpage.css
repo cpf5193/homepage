@@ -1,0 +1,98 @@
+@import url(reset.css);
+@import url(nav.css);
+@import url(header_logo.css);
+@import url(error.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
+
+html {
+ height: 100%;
+}
+html::after {
+  content: "";
+  background: url(homepage_images/seattle_background.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;   
+}
+body{
+	font-family: "Open Sans", sans-serif;
+	background-color: #262626;
+}
+.header {
+	height: 70px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #888;
+}
+.middle-row figure, .middle-row p {
+	display: inline-block;
+}
+.middle-row .portal {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.middle-row .main-text {
+	width: 250px;
+	color: white;
+  vertical-align: top;
+  margin-top: 80px;
+}
+.main-text span {
+	line-height: 20px;
+}
+.main-text .welcome {
+	display: block;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+figure.portal{
+	display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  padding: 0px;
+  border-radius: 130px;
+  background-color: #FFF;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;  
+}
+figure.portal.other {
+	pointer-events: none;
+	opacity: 0.4;
+}
+figure img{
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  border-radius: 130px;
+  border: 10px solid #EEE;
+}
+figure:hover{
+	box-shadow: 2px 2px 6px #555;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+figcaption{
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 5px;
+	color: white;
+}
+.portal a{
+	text-decoration: none;
+}
+.mainSection {
+  text-align: center;
+}

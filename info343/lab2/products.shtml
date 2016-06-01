@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<!--#include virtual="inc/header.html" -->
+			<p id="contact-banner"><a class="hyperlink" href="mailto:sales@widgetsrus.com">Send us email</a> or call us to order any of our products.</p>
+
+			<div class="product-sect">
+				<img src="img/basic-widget.png" alt="basic widget">
+				<h2>Basic Widget</h2>
+				<p class="descr">This is just your basic widget, nothing fancy</p>
+				<p class="price">$10 each; $100 box of 20</p>
+			</div>
+			<div class="product-sect">
+				<img src="img/super-widget.png" alt="super widget">
+				<h2>Super Widget</h2>
+				<p class="descr">A higher-end widget that is really super</p>
+				<p class="price">$20 each; $200 box of 20</p>
+			</div>
+			<div class="product-sect">
+				<img src="img/super-duper-widget.png" alt="super-duper-widget">
+				<h2>Super-Duper Widget</h2>
+				<p class="descr">Our premium widget, the best of its kind!</p>
+				<p class="price">$30 each; $300 box of 20</p>
+			</div>
+	<!--#include virtual="inc/footer.html" -->
+</html>

@@ -1,0 +1,33 @@
+/*
+Christon Fukuhara
+CSE 154 BF/BU 
+October 31, 2012
+HW 5 cow.css
+
+Remember the Cow is an online to-do list that lets the user add and delete items
+to a list stored on a database, and uses sessions and cookies to retain the users'
+data for a certain period of time.
+
+cow.css is used to style the main sections of index.php and todolist.php.
+*/
+
+h2{border: 3pt solid black;}
+h2, #errorMessage, #main p, #loginform input {text-align: center;}
+body{margin: 0; padding: 0; font-family: "Arial", "Helvetica", sans-serif; font-size: 14pt;}
+h2, .headfoot{ background-color: #005AB4; color: white;}
+#errorMessage{border: 2pt solid black;  background-color: red; color: black; font-size: 18pt; padding: 5pt; margin-bottom: 18px;}
+#main{background-image: url("hw5_images/background.jpg"); background-repeat: no-repeat; background-size: 100% 100%; font-weight: bold;}
+#loginform div{margin-left: auto; margin-right: auto; width: 30%;}
+#loginform input{width: 50%; margin-top:2pt; margin-bottom: 2pt;}
+#loginform input[type="submit"] {width: 100%;}
+#loginform input, #main {color: black;}
+body, input, select, option, button, a {color: #005AB4; font-family: Arial, Helvetica, sans-serif; font-size: 14pt;}
+body, h1 {margin: 0; padding: 0;}
+#error {background-color: #ffdddd; border: 1px dotted red; color: red; font-weight: bold; padding: 0.5em;}
+.headfoot {background-color: #005AB4; color: white; padding: 0.5em;}
+h1 img {float: left; margin-right: 1em;}
+li {margin-bottom: 0.5em; width: 20em;}
+li input[type="submit"] {float: right; margin-left: 1em;}
+#main {margin: 2em;}
+#todolist form {display: inline;}
+#todolist li {clear: right;}

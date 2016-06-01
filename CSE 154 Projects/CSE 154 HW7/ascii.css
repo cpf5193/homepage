@@ -1,0 +1,19 @@
+/*
+Christon Fukuhara
+CSE 154 BF/BU 
+HW 7 ASCIImation
+November 14, 2012
+
+ASCIImation is an interactive page that displays and modifies animations
+using ASCII code characters based on user interaction with the page.
+
+ascii.cs provides the styling and format for ascii.html
+*/
+
+body{ text-align: center; background-color: #CCCCFF;}
+h1{font-size: 32pt; margin: 0pt;}
+legend{ vertical-align: top;}
+div a{float: right; clear: right;}
+input, select, button, body{ font: normal bold 14pt sans-serif; }
+textarea{width: 90%; height: 400px; font: normal bold 12pt monospace;}
+fieldset{display: inline; border: black 5px solid; border-radius: 10px;}

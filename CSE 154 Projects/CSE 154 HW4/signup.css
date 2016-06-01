@@ -1,0 +1,33 @@
+/*
+CSE 154, Homework 4: NerdLuv
+You should link to this provided stylesheet from all of your pages.
+You should not need to modify this file.  Your pages should work with it as-is.
+*/
+
+* {font-size: 12pt; font-family: "Verdana", "Geneva", sans-serif;}
+a {color: #F44; text-decoration: none;}
+a:hover {background-color: #FFA;}
+a img {border: none;}
+body {background-color: white; padding-left: 1em;}
+body > div, form {width: 35em;}
+div, form{overflow: hidden;}
+fieldset {background-color: #E0E0FF; border-radius: 10px;}
+fieldset, legend{border: 2px outset gray;}
+fieldset strong, ul strong, fieldset label.left, fieldset .column {width: 11em;}
+legend {background-color: white; padding: 0.2em;}
+fieldset strong, ul strong, fieldset label.left, fieldset .column{float: left;}
+ul img {vertical-align: middle;}
+ul {list-style-type: none; padding-left: 0em;}
+#w3c {clear: both;}
+#bannerarea {margin-bottom: 2em;}
+.back, .nerdluv{background: url(hw4_images/sprite.png) no-repeat;}
+.back{
+	width: 32px;
+	height: 32px;
+}
+.back{background-position: -221px 0;}
+.nerdluv{
+	background-position: 0 0;
+	width: 182px;
+	height: 34px;
+}

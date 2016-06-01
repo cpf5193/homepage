@@ -1,0 +1,38 @@
+.nav-tabs {
+  display: inline-block;
+  float: right;
+  margin-right: 5px;
+}
+.nav-tabs li {
+  float: right;
+  margin-top: 17px;
+  margin-right: 5px;
+}
+nav a{
+  color: #FFF;
+  padding: 10px;
+  font-weight: bold;
+}
+nav li, nav a{
+  display: inline-block;
+}
+nav a.selected {
+  color: #5599FF;
+  opacity: 1 !important;
+}
+nav a:link, nav a:visited{
+  text-decoration: none;
+}
+nav a[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+nav a[disabled]:hover {
+  border-bottom: none;
+}
+nav a:hover{
+  border-bottom: 3px solid #787887;
+  font-weight: bold;
+  color: white;
+}

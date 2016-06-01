@@ -1,0 +1,22 @@
+/*
+Christon Fukuhara
+CSE 154 BF/BU HW8b
+November 27, 2012
+Fifteen Puzzle fifteen.css 
+
+Fifteen Puzzle is a simple game where the user clicks on directly adjacent squares
+that neighbor an empty slot on a 4x4 grid of tiles, and that tile slides into the 
+empty space, until the tiles are in order.
+
+fifteen.css provides the styling and formatting for fifteen.html.
+
+Implemented Extra Feature #4
+*/
+body{ text-align: center; }
+#puzzlearea{width: 400px; height: 400px; position: relative; margin-left: auto; margin-right: auto;}
+#background, #boardSize, #shuffle, body{font-family: cursive; font-size: 14pt;}
+.box{border: black 5px solid; position: absolute; font-size: 40pt;}
+.box:hover{cursor: default;}
+.box p{height:100%; margin-top: 0; margin-bottom: 0;}
+.movable:hover{cursor: pointer; border-color: red;}
+#winMessage p{color: red; border: black 10px solid; background-color: yellow; font-weight: bold;}

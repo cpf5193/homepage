@@ -1,0 +1,145 @@
+{
+  "unit": "Dollars",
+  "name": "All",
+  "value": 100000,
+  "children": [
+    {
+      "name": "Food",
+      "value": 3000,
+      "children": [
+        { "name": "Groceries",
+          "value": 2000,
+          "children": [] },
+        { "name": "Restaurants",
+          "value": 1000,
+          "children": [] }
+      ]
+    },
+    { 
+      "name": "Housing",
+      "value": 30000,
+      "children": [
+        { "name": "Rent",
+          "value": 24000,
+          "children": []
+        },
+        { "name": "Deposit",
+          "value": 400,
+          "children": []
+        },
+        { "name": "Renter's Insurance",
+          "value": 300,
+          "children": []
+        },
+        { "name": "Utilities",
+          "value": 5300,
+          "children": [
+            { "name": "Water",
+              "value": 433,
+              "children": [] },
+            { "name": "Sewage",
+              "value": 767,
+              "children": [] },
+            { "name": "Water Heating",
+              "value": 220,
+              "children": [] },
+            { "name": "Electricity",
+              "value": 440,
+              "children": [] },
+            { "name": "Air Conditioning",
+              "value": 394,
+              "children": [] },
+            { "name": "Heating",
+              "value": 316,
+              "children": [] },
+            { "name": "Garbage",
+              "value": 503,
+              "children": [] },
+            { "name": "Recycling",
+              "value": 817,
+              "children": [] },
+            { "name": "Cable",
+              "value": 310,
+              "children": [] },
+            { "name": "Internet",
+              "value": 1100,
+              "children": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Taxes",
+      "value": 33000,
+      "children": [
+        {
+          "name": "Federal",
+          "value": 28801,
+          "children": []
+        },
+        {
+          "name": "State",
+          "value": 4199,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Payments",
+      "value": 8000,
+      "children": [
+        {
+          "name": "Social Security",
+          "value": 1750,
+          "children": []
+        },
+        {
+          "name": "Retirement",
+          "value": 5500,
+          "children": []
+        },
+        {
+          "name": "Medicare",
+          "value": 510,
+          "children": []
+        },
+        {
+          "name": "Other",
+          "value": 240,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Car",
+      "value": 6200,
+      "children": [
+        {
+          "name": "Payments",
+          "value": 4000,
+          "children": []
+        },
+        {
+          "name": "Gas",
+          "value": 1100,
+          "children": []
+        },
+        {
+          "name": "Insurance",
+          "value": 320,
+          "children": []
+        },
+        {
+          "name": "Maintenance",
+          "value": 780,
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Personal Expenses",
+      "value": 19800,
+      "children": []
+    }
+  ]
+}

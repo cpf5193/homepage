@@ -1,0 +1,17 @@
+.header-logo {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.header-logo img {
+  height: 50px;
+  width: 50px;
+}
+.header-logo a {
+  padding: 0;
+}
+.header-logo a:hover, .header-logo a:visited {
+  text-decoration: none;
+  border-bottom: none;
+  font-weight: normal;
+}

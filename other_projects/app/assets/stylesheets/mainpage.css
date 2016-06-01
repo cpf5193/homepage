@@ -1,0 +1,115 @@
+@import url(common.css);/*Gets all the styles from common.css*/
+
+.navbar-nav li{
+	margin: 15px;
+}
+
+.col-md-12{
+	width: 80%;
+	margin: 10px auto;
+}
+
+.item{
+	text-align: center;
+}
+
+.carousel-control{
+	margin-top: 80px;
+	height: 50px;
+	width: 50px;
+}
+
+@media (max-width: 767px){
+	.navbar-nav li{
+		margin: 5px 0;
+	}
+}
+
+.well{
+	margin: 20px 50px;
+}
+
+.image_carousel {
+	padding: 15px 0 0 40px;
+	position: relative;
+}
+.image_carousel .activity{
+	border: 1px solid #ccc;
+	background-color: white;
+	padding: 5px;
+	margin: 7px;
+	display: inline;
+	float: left;
+}
+
+a.prev, a.next {
+	background: url(../images/slider_sprite.png) no-repeat transparent;
+	width: 45px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 85px;
+}
+a.prev {			left: -22px;
+					background-position: 0 0; }
+a.prev:hover {		background-position: 0 -50px; }
+a.prev.disabled {	background-position: 0 -100px !important;  }
+a.next {			right: -22px;
+					background-position: -50px 0; }
+a.next:hover {		background-position: -50px -50px; }
+a.next.disabled {	background-position: -50px -100px !important;  }
+a.prev.disabled, a.next.disabled {
+	cursor: default;
+}
+
+a.prev span, a.next span {
+	display: none;
+}
+.pagination {
+	text-align: center;
+	width: 100%;
+}
+.pagination a {
+	background: url(../images/slider_sprite.png) 0 -300px no-repeat transparent;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+.pagination a.selected {
+	background-position: -25px -300px;
+	cursor: default;
+}
+.pagination a span {
+	display: none;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+.activity{
+	-webkit-transition: all .75s ease;
+	-moz-transition: all .75s ease;
+	-o-transition: all .75s ease;
+	-ms-transition: all .75s ease;
+	transition: all .75s ease;  
+	text-align: center;
+}
+
+.activity:hover{
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.carousel{
+	padding: 20px auto;
+}
+
+.imglink > img{
+	width: 100px;
+	height: 100px;
+}

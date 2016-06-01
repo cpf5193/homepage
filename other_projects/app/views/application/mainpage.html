@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FreeTime</title>
+	<meta charset="UTF-8">
+	<meta name="author" content="cpf5193">
+
+	<!--These stylesheets apply a reset for cross-browser uniformity, then apply 
+	bootstrap and then our custom styles-->
+	<link rel="stylesheet" type="text/css" href="../../assets/stylesheets/reset.css">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/stylesheets/mainpage.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-default" role="combobox">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menu">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+   			 </button>
+		</div>
+
+		<div class="collapse navbar-collapse navbar-menu">
+        	<ul class="nav navbar-nav">
+	            <li class="timespan">
+	            	Time Allotted
+	            	<select>
+						<option>&lt15 min.</option>
+						<option>&lt30 min.</option>
+						<option>&lt1 hr.</option>
+						<option>&lt2 hrs.</option>
+						<option>&lt3 hrs.</option>
+						<option>&lt4 hrs.</option>
+						<option>&lt6 hrs.</option>
+						<option>&lt8 hrs.</option>
+						<option>&lt1 day</option>
+						<option>&lt2 days</option>
+						<option>&lt4 days</option>
+						<option>&lt1 week</option>
+						<option>&gt1 week</option>
+	            	</select>
+	            </li>
+	            <li class="numpeople">
+	            	# of People
+	            	<select>
+	            		<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5-6</option>
+						<option>8-10</option>
+						<option>11-19</option>
+						<option>20+</option>
+	            	</select>
+	            </li>
+	            <li class="zipcode">Zipcode: <input type="text" name="zipcode" maxlength="5" size="5"></li>
+	            <li class="submit"><button class="btn btn-">Get Activities</button></li>
+	        </ul>
+	    </div>
+	</nav>
+
+
+
+    <div class="accordion" id="accordion1">
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+                Category Name
+                </a>
+            </div>
+            <div id="collapseOne" class="accordion-body collapse in">
+                <div class="image_carousel accordian-inner">
+                    <div id="carousel1" class="carousel">
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+                        <div class="activity"><a href="#" class="imglink"><img src="http://placehold.it/100x100" alt="placeholder"/></a><p>Text below image</p></div>
+
+                    </div>
+                    <div class="clearfix"></div>
+                    <a class="prev" id="carousel1-prev" href="#"><span>prev</span></a>
+                    <a class="next" id="carousel1-next" href="#"><span>next</span></a>
+                    <div class="pagination" id="carousel1-pag"></div>
+                </div><!--image-group-->
+            </div><!--accordian-body-->
+        </div><!--accordian-group-->
+    </div><!--accordian-->
+
+
+	
+	<footer>
+		<p>Created By: Brandon Edgren, Chip Fukuhara, Connor Moseley, Nick Reiter, Alec Wagner, Shen Wang<br>(c)FreeTime 2013</p>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../assets/javascripts/jquery.touchswipe.min.js"></script>
+    <script type="text/javascript" src="../../assets/javascripts/jquery.carouFredSel-6.2.1.js"></script>
+    <script type="text/javascript" src="../../assets/javascripts/mainpage.js"></script>
+</body>
+</html>

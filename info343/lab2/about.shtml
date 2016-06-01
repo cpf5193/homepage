@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<!--#include virtual="inc/header.html" -->
+			<div class="story">
+				<h2 class="about-sect">Our Story</h2>
+				<p class="lorem">
+					Lorem ipsum dolor sit amet, consectetur
+					adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+				<p class="lorem">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.
+				</p>
+			</div>
+			<div class="team">
+				<h2 class="about-sect">Our Team</h2>
+				<div class="person">
+					<img src="img/person.jpg" alt="Headshot image">
+					<p class="nametitle">Amy Chen, President</p>
+					<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+				<div class="person">
+					<img src="img/person.jpg" alt="Headshot image">
+					<p class="nametitle">Rochelle Jones, CIO</p>
+					<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+				<div class="person">
+					<img src="img/person.jpg" alt="Headshot image">
+					<p class="nametitle">Michael Matsui, VP Operations</p>
+					<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+				<div class="person">
+					<img src="img/person.jpg" alt="Headshot image">
+					<p class="nametitle">Thorfin Skullsplitter, HR Director</p>
+					<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+				</div>
+			</div>
+	<!--#include virtual="inc/footer.html" -->
+</html>
