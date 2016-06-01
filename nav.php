@@ -22,7 +22,7 @@ function printNavBar($disabledArr, $selected){
       'disabled' => in_array('resume', $disabledArr) ? true : false
     ),
     array(
-      'path' => '/other_projects/other_projects.php',
+      'path' => '/other.php',
       'text' => 'Other',
       'selected' => $selected == 'other' ? true : false,
       'disabled' => in_array('other', $disabledArr) ? true : false

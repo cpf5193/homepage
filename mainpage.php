@@ -18,7 +18,7 @@ bounceSession();
 			<div class="header-logo">
 				<a href="/mainpage.php"><img src="homepage_images/logo.png"></a>
 			</div>
-      <?= printNavBar(array("other", "home"), "home"); ?>
+      <?= printNavBar(array("home"), "home"); ?>
 		</nav>
 
 		<?php showError(); ?>
@@ -51,9 +51,9 @@ bounceSession();
 			</div>
 			<div class="row">
 				<figure class="portal other">
-					<a href="#">
+					<a href="/other.php">
 						<img src="homepage_images/trumpet.jpg" alt="Other">
-						<figcaption> Other (Under Construction) </figcaption>
+						<figcaption> Other </figcaption>
 					</a>
 				</figure>
 			</div>

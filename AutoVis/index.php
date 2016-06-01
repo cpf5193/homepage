@@ -18,7 +18,7 @@ bounceSession();
 			<div class="header-logo">
         <a href="../mainpage.php"><img src="../homepage_images/logo.png"></a>
       </div>
-      <?= printNavBar(array("other"), "projects"); ?>
+      <?= printNavBar(array(), "projects"); ?>
 		</nav>
 
 		<div class="content">

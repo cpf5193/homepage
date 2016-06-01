@@ -19,7 +19,7 @@ bounceSession();
 			<div class="header-logo">
 				<a href="/mainpage.php"><img src="homepage_images/logo.png"></a>
 			</div>
-      <?= printNavBar(array("about", "other"), "about"); ?>
+      <?= printNavBar(array("about"), "about"); ?>
 		</nav>
 		<div class="content">
 			<div class = "topBanner">
@@ -79,4 +79,3 @@ bounceSession();
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-<script src="mainpage.js" type="text/javascript" async="async"></script>
