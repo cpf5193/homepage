@@ -7,17 +7,16 @@
 html {
  height: 100%;
 }
-html::after {
+body::after {
   content: "";
   background: url(homepage_images/seattle_background.jpg);
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+	opacity: 0.5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-size: 100% 100%;
+	min-width: 100%;
+	min-height: 100%;
   z-index: -1;   
 }
 body{
@@ -63,10 +62,6 @@ figure.portal{
 	-o-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
 	transition: all 0.5s ease;  
-}
-figure.portal.other {
-	pointer-events: none;
-	opacity: 0.4;
 }
 figure img{
   width: 200px;

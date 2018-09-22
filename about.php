@@ -35,21 +35,38 @@ bounceSession();
             <li data-target="#carousel" data-slide-to="1"></li>
             <li data-target="#carousel" data-slide-to="2"></li>
             <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+            <li data-target="#carousel" data-slide-to="5"></li>
+            <li data-target="#carousel" data-slide-to="6"></li>
+            <li data-target="#carousel" data-slide-to="7"></li>
+            <li data-target="#carousel" data-slide-to="8"></li>
           </ol>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="homepage_images/about_pictures/beach.jpg" alt="Beach">
+              <img src="homepage_images/about_pictures/elephant.jpg" alt="Elephant Thailand">
             </div>
             <div class="item">
-              <img src="homepage_images/about_pictures/papas_wedding.jpg" alt="Wedding">
+              <img src="homepage_images/about_pictures/rock-climbing.jpg" alt="Rock Climbing">
             </div>
             <div class="item">
-              <img src="homepage_images/about_pictures/something1.jpg" alt="Beach 2">
+              <img src="homepage_images/about_pictures/socal-swing.jpg" alt="Santa Monica Swing">
             </div>
             <div class="item">
-              <img src="homepage_images/about_pictures/with_mom.jpg" alt="Mom">
+              <img src="homepage_images/about_pictures/spain-boardwalk.jpg" alt="Boardwalk in Spain">
+            </div>
+            <div class="item">
+              <img src="homepage_images/about_pictures/spain-cross.jpg" alt="Cross in Spain">
+            </div>
+            <div class="item">
+              <img src="homepage_images/about_pictures/spain-ice-chair.jpg" alt="Ice bar in Spain">
+            </div>
+            <div class="item">
+              <img src="homepage_images/about_pictures/thailand-kayak.jpg" alt="Kayaking in Thailand">
+            </div>
+            <div class="item">
+              <img src="homepage_images/about_pictures/toproping.jpg" alt="Top Roping">
             </div>
           </div>
 
@@ -64,14 +81,13 @@ bounceSession();
           </a>
         </div>
         <p>Hi, My name is Christon(Chip) Fukuhara. I am a graduate of the University of Washington
-        Computer Science program, class of 2015. I began programming in senior year of high school in Java,
+        Computer Science program, class of 2015. I began programming in 2011 in Java,
         and began web programming in Autumn of 2012. Other than coding, 
-        I play the trumpet, am involved in my church, and enjoy games like foosball, baseball, and ping-pong.
+        I play the trumpet and guitar, and am a leader of the young professional community for my Echo Church in Sunnyvale. I enjoy
+        activities like rock climbing, escape rooms, foosball, and hanging out with my friends over a meal.
         I am currently employed at Yahoo as a front-end software developer creating Ember.js applications.
-        With my programming abilities I would like to someday help create a medical system 
-        which is easy to use for medical record-keeping and transferring, so that hospitals and clinics can
-        serve more patients in need without the hassle of complex medical software.
-        I hope you enjoy exploring my site!
+        With my programming abilities I would love to work on software that impacts those who are struggling with medical conditions,
+        especially those who are unable to pay for their medical bills. I hope you enjoy exploring my site!
         </p>
 			</div>
 		</div>

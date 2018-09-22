@@ -36,12 +36,6 @@ bounceSession();
         </a>
       </figure>
       <figure class="portal">
-        <a href="other_projects/other_projects.php">
-          <img src="homepage_images/cse_logo.png" alt="other projects">
-          <figcaption> Other Projects </figcaption>
-        </a>
-      </figure>
-      <figure class="portal">
         <a href="treevis/path-visualization.html">
           <img src="homepage_images/paths-vis.png" alt="tree visualization">
           <figcaption> Tree Visualization </figcaption>
